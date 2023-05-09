@@ -55,7 +55,7 @@ app.post('/app/rpsls/play', (req, res) => {
     res.status(200).send(JSON.stringify(rpsls(req.body.shot))).end();
 })
 
-/*
+//play rps against an opponent parameter
 app.get('/app/rps/play/:shot', (req, res) => {
     res.status(200).send(JSON.stringify(rps(req.params.shot))).end();
 })
@@ -64,7 +64,7 @@ app.get('/app/rps/play/:shot', (req, res) => {
 app.get('/app/rpsls/play/:shot', (req, res) => {
     res.status(200).send(JSON.stringify(rpsls(req.params.shot))).end();
 })
-*/
+
 
 //if an endpoint does not exist, we catch the error
 app.all('*', (req, res) => {
