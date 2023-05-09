@@ -1,0 +1,28 @@
+{
+  "name": "a04-ellaparkunc",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a04-ellaparkunc.git"
+  },
+  "author": "'730330121' <ella.person224@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a04-ellaparkunc/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a04-ellaparkunc#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "minimist": "^1.2.8",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.1.0"
+  },
+  "type": "module"
+}
